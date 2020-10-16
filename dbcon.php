@@ -1,9 +1,9 @@
 <?php
 
-$link = mysqli_connect("localhost", "root", "winwings2", "marionsdatabase");
+$link = mysqli_connect("georgserver.database.windows.net", "georgos", "Winwings2.", "marionsdatabse");
 if(!$link){
 
-    $error = "Could not connect to Mysqli";
+    $error = "Could not connect to Mysqli : ". mysqli_error($link);
     include 'error.php';
     exit();
 }
