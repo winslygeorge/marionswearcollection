@@ -1,0 +1,157 @@
+
+
+
+.product_gallery{
+
+
+
+	
+}
+.pp{
+
+	display: block;
+
+	height: 270px;
+	width: 200px;
+box-shadow: 3px 3px 3px grey;
+
+border-radius: 5px;
+}
+
+.figure{
+
+	float: left;
+
+
+
+width: 15em;
+
+height: 450px;
+
+border-radius: 5px;
+
+	box-shadow: 3px 5px 5px grey;
+
+	padding: 10px;
+
+	margin: 30px;
+	overflow: hidden;
+}
+.product_desc{
+
+	background-color: pink;
+
+	border-left:5px solid red;
+
+	box-shadow: 2px 2px 2px grey;
+
+	margin-top: 5px;
+}
+
+.proname{
+
+	border: 1px solid white;
+	background-color: #f172a1;
+	text-align: center;
+
+	box-shadow: 2px 2px 3px grey;
+	border-radius:3px;
+
+
+}
+
+.loveheart{
+margin:5px;
+
+display:flex;
+	
+}
+
+.loveheart > img{
+	margin-right:2em;
+
+	width: 3em;
+	height: 1.5em;
+}
+.add{
+background-color: #a1c3d1;
+border-radius: 5px;
+box-shadow: 3px 3px 3px grey;
+	width:4em;
+	height: 2em;
+}
+
+.addclicked{
+background-color:blue;
+border-radius: 5px;
+box-shadow: 3px 3px 3px grey;
+	width:4em;
+	height: 2em;
+}
+
+.star, .hearts{
+
+	border-radius: 5px;
+box-shadow: 3px 3px 3px grey;
+	width:4em;
+	height: 2em;
+}
+
+.loveheart img.star{
+
+	background-color: grey;
+}
+
+#cart{
+background-color: rgb(23, 21, 31, 0.8);
+border: 1px outset blueviolet;
+
+	padding: 10px;
+	width: 40%;
+	height: auto;
+	position: absolute;
+	border-radius: 0px 50px 20px 10px;
+float: right;
+left: 30%;
+
+
+	z-index: 1;
+}
+
+.hidecp{
+
+	display:none;
+}
+
+th{
+	background-color: grey;
+	text-align: center;
+
+	border-radius: 5px;
+}
+
+td{
+
+	background-color: deepskyblue;
+
+	padding: 5px;
+	margin: 8px;
+	text-align: center;
+	border-radius: 5px;
+}
+.liked{
+
+	background-color: red;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px grey;
+		width:4em;
+		height: 2em;
+}
+.stared{
+
+	background-color: yellow;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px grey;
+		width:4em;
+		height: 2em;
+}

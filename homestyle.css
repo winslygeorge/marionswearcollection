@@ -1,0 +1,130 @@
+
+body{
+
+	width: inherit;
+}
+.responsive{
+
+
+	width: inherit;
+
+	height: inherit;
+
+	
+
+
+	
+
+
+}
+
+.figure >img:hover{
+
+
+
+	
+	cursor: pointer;
+	transform: scale(1.3);
+}
+
+.images:hover {
+
+	animation-play-state: paused;
+
+}
+
+.gallery{
+
+width: 60em;
+height: 20em;
+margin-left:5em;
+padding:2em;
+
+}
+
+
+
+.images{
+
+	width: inherit;
+	height: inherit;
+
+
+	animation:rotar 15s infinite linear;
+
+transform-style: preserve-3d;
+
+
+}
+
+.figure{
+width: 25em;
+height: 15em;
+margin-left: 20em;
+
+
+	overflow: hidden;
+
+
+
+position: absolute;
+
+box-shadow: 5px 3px 5px black;
+
+
+}
+
+.figure > img{
+width: inherit;
+height: inherit;
+	image-rendering: auto;
+	
+}
+
+.figure:nth-child(1){
+
+transform: rotateY(0deg) translateZ(24em);
+
+}
+.figure:nth-child(2){
+
+transform: rotateY(60deg) translateZ(24em);
+
+}
+.figure:nth-child(3){
+
+transform: rotateY(120deg) translateZ(24em);
+
+}
+.figure:nth-child(4){
+
+transform: rotateY(180deg) translateZ(24em);
+
+}
+.figure:nth-child(5){
+
+transform: rotateY(240deg) translateZ(24em);
+
+}
+.figure:nth-child(6){
+
+transform: rotateY(300deg) translateZ(24em);
+
+}
+
+@keyframes rotar{
+
+	from{
+
+transform: rotateY(0deg);
+	}to{
+transform: rotateY(300deg);
+
+	}
+}
+
+.hideCarrosel{
+
+	display: none;
+}
+

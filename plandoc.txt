@@ -1,0 +1,77 @@
+GEORGS SHOPPING CART PLAN
+
+1.Title - DOPE BLACK WEAR
+
+2.Introduction
+
+This website is an example of a shopping website cart that immitates an online shopping cart for black wear.
+
+features/objectives 
+
+The website will have a page that will be able to show all the lists of clothes shoes and items on the websites database,
+including the name, image, description, the quantity available and also the  price.
+
+The website will allow the user/buyer to select and add to cart the items and quantity required.
+The price will be calculated automatically.
+The cart will also be able to keep track of the number of items available in the database.
+
+The website will also have the admin page that will only allow access the administartors only. Where the admin will be able
+to add delete the item and there details.
+
+CONTENTS/FRONTEND CHARACTERISTICS
+
+The website frontend CHARACTERISTICS
+1.bert -- white, #15171f, words -#66fcf1, #c5c6c7, #45a29e
+dropdown menu 
+cart photo
+
+
+Web Pages In The Website 
+
+homepage
+will have the title, introduction phase and the navigation keys
+
+shopping page 
+shows the list of every item
+<button>
+MENU</button>
+<ul class = 'hmen'>
+<li class = 'hmen'>Home</li>
+<li class = 'hmen'>contact</li>
+<li class = 'hmen'>register</li>
+<li class = 'hmen'>login</li>
+<li class = 'hmen'> logout</li>
+</ul>
+<img src = 'images/cartpic.png' class = "lg">
+<button class = "menu"> 
+MENU</button>
+<ul class = 'hmen'>
+<li class = 'hmen'>Home</li>
+<li class = 'hmen'>contact</li>
+<li class = 'hmen'>register</li>
+<li class = 'hmen'>login</li>
+<li class = 'hmen'> logout</li>
+</ul>
+
+<img src = 'images/cartpic.png' class = "img" >
+<button class="lgin">Login</button>
+<button class="lgout">Logout</button>
+<div class="tit">
+DOPE GEORGS AFRICAN MENS WEAR
+</div>
+
+
+//
+
+title: Marions womens wear collections
+
+categories:
+
+dress
+top-wear
+shoes
+trousers
+earings
+
+
+
