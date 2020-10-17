@@ -1,9 +1,8 @@
 <?php
-
-$link = mysqli_connect("georgserver.database.windows.net", "georgos", "Winwings2.", "marionsdatabse");
+$link = mysqli_connect('georgoswinserver.mysql.database.azure.com', 'georgoswins@georgoswinserver', 'Winwings2.', 'marionsdatabase');
 if(!$link){
 
-    $error = "Could not connect to Mysqli : ". mysqli_error($link);
+    $error = "Could not connect to Mysqli";
     include 'error.php';
     exit();
 }

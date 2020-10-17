@@ -113,15 +113,15 @@ button{
 <div class = 'images'>
 
 <figure class = "figure">
-<img src="images2/kaauma.png" alt = "kaauma shoes" >
-<caption>KAAUMA SHOES</caption>
+<img src="images2/labeshoes.jpeg" alt = "kaauma shoes" >
+<caption>K</caption>
 
 
 </figure>
 
 <figure  class = "figure">
-<img src="images2/afrocentric.png" alt = "Afro african shirt" >
-<caption>AFROCENTRIC FIBRE SHIRT</caption>
+<img src="images2/summer.jpeg" alt = "Afro african shirt" >
+<caption>Summer Dress</caption>
 
 
 </figure>
@@ -135,7 +135,7 @@ button{
 
 
 <figure  class = "figure">
-<img src="images2/sky.png" alt = "kaauma shoes" >
+<img src="images2/korea.jpeg" alt = "kaauma shoes" >
 <caption>dark blue sky</caption>
 
 
