@@ -1,7 +1,7 @@
 
 <?php 
 
-include 'adminlogin.php';
+require_once ('adminlogin.php');
 
 
 ?>
