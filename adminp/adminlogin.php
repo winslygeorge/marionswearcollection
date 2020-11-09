@@ -54,7 +54,7 @@ if(!$sqlreslogad){
   
 
 
-echo mysqli_num_rows($sqlreslogad);
+//echo mysqli_num_rows($sqlreslogad);
 
         while($rowlogad = mysqli_fetch_array($sqlreslogad, MYSQLI_ASSOC)){
 
@@ -73,7 +73,7 @@ echo mysqli_num_rows($sqlreslogad);
 
             ob_start();
 
-                header('Location: ./../navp.php');
+                header('Location: navp.php');
 
                 ob_end_flush();
 
