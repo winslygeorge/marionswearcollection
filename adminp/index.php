@@ -17,7 +17,7 @@ require_once ('adminlogin.php');
 <body>
     <div class="form">
        <center> <caption class="logreghead"><h4><b>LOGIN AS ADMINISTRATOR<b></h4></caption></center><br><br>
-<form action="?" method = "post">
+<form action="adminlogin.php" method = "post">
 
 <label for="admin" class="lab">ADMIN-CODE:</label>
 <input type = "text" name="logadmin" class = "inp">
