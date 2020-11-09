@@ -71,7 +71,9 @@ echo mysqli_num_rows($sqlreslogad);
            $_SESSION['admin'] = $rowemailad;
            if($GLOBALS['logadmin'] && $GLOBALS['successpass'] && isset($_SESSION['admin'])){
 
-         header('Location: navp.php');
+        // header('Location: navp.php');
+
+        include_once './navp.php';
         
         }
                 
