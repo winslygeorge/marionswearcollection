@@ -1,14 +1,16 @@
 
 <?php
 
+echo "connecting";
 session_start();
 
 if(!isset($_SESSION['admin'])){
 
+    echo "error";
     header('Location: ../../../prodhome');
 }else{
 
-
+echo "inside navp";
 
 include '../htmlfiles/header.html';
 ?>
